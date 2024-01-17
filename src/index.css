@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* color gradients */
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, #ff0000, #ff0000);
+
+}
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
