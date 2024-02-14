@@ -64,9 +64,9 @@ export function CarouselWithContent() {
         </div>
       ) : (
         <div className="absolute top-1/2 left-0 right-0 p-8 transform -translate-y-1/2 flex flex-col items-center">
-              <h1 className="text-5xl sm:text-3xl font-bold font-mono text-neutral-700 leading-tight mb-4"><span className="font-bold text-pink-950 text-animate-pulse">Say goodbye </span>to off-the-rack blues. Hello, bespoke bliss.</h1>
+              <h1 className="text-5xl sm:text-3xl font-bold font-mono text-slate-950 leading-tight mb-4"><span className="font-bold text-pink-950 text-animate-pulse">Say goodbye </span>to off-the-rack blues. Hello, bespoke bliss.</h1>
               <p className="text-lg sm:text-base font-mono text-pink-950 text-center mb-8">Unleash your inner fashion icon. We will find the perfect stitch for your story.</p>
-              <a href="#" className="bg-pink-500 text-slate-950 hover:bg-pink-950 text-center py-2 px-6 rounded-full text-lg sm:text-base font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Design</a>
+              <a href="/fabric" className="bg-pink-500 text-slate-950 hover:bg-pink-950 text-center py-2 px-6 rounded-full text-lg sm:text-base font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Design</a>
             </div>
       )}
     </div>
