@@ -1,0 +1,43 @@
+/* CarouselWithContent.css */
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-item-wrapper {
+  display: flex;
+}
+
+.carousel-item {
+  min-width: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.blend-overlay {
+  mix-blend-mode: overlay; /* You can use 'overlay' or other blend modes as needed */
+}
+.carousel-item {
+  min-width: 100%;
+  /* Add the transition and opacity styles for fading animation */
+  transition: opacity 500ms ease-in-out;
+  opacity: 0.2; /* Set base opacity for non-active items */
+}
+.carousel-item.active {
+  opacity: 1; /* Set opacity for active item */
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.blend-overlay {
+  mix-blend-mode: overlay; /* You can use 'overlay' or other blend modes as needed */
+}

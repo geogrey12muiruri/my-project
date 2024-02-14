@@ -1,14 +1,25 @@
 
-import Hero from './Hero'
+
+import Brand from "../brands/Brand"
+import Predefined from "../predefined/Predefined"
+
+import Testimonial from "../testimonials/Testimonial"
+import {CarouselWithContent} from "./CarouselWithContent"
+import Cat from '../cats/Cat'
+
+
+
 
 
 
 const Home = () => {
   return (
-    <div>
-     <Hero />
-
-     
+    <div>      
+    <CarouselWithContent />
+     <Predefined  />
+     <Brand />
+     <Testimonial />
+     <Cat />
      
     </div>
   )
